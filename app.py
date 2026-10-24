@@ -1,13 +1,12 @@
-
 import streamlit as st
 import pandas as pd
 from dotenv import load_dotenv
 
-from src.ml_engine import predict_url
-from src.message_analyzer import analyze_message
-from src.ai_explainer import generate_explanation
-from src.history import load_history, save_investigation, clear_history
-from src.reporting import generate_pdf_report
+from ml_engine import predict_url
+from message_analyzer import analyze_message
+from ai_explainer import generate_explanation
+from history import load_history, save_investigation, clear_history
+from reporting import generate_pdf_report
 
 load_dotenv()
 
