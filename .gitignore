@@ -1,0 +1,25 @@
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editor and local development tools
+.vscode/
+.refact/
+
+# Keep the trained model
+# Keep reports/metrics.json, classification_report.json,
+# and confusion_matrix.png
+
+# Exclude temporary PDF test artifacts
+reports/test_report.pdf
+reports/test_report_v2.pdf
+data/
+# Local investigation history
+reports/investigation_history.json

@@ -1,0 +1,30 @@
+{
+    "model": "Logistic Regression",
+    "dataset": "data\\PhiUSIIL_Phishing_URL_Dataset.csv",
+    "features": [
+        "url_length",
+        "hostname_length",
+        "dot_count",
+        "subdomain_count",
+        "uses_https",
+        "has_ip_address",
+        "at_symbol_count",
+        "hyphen_count",
+        "digit_count",
+        "query_length",
+        "path_length",
+        "suspicious_keyword_count"
+    ],
+    "total_valid_records": 235370,
+    "training_records": 188296,
+    "testing_records": 47074,
+    "accuracy": 0.9922250074351022,
+    "phishing_precision": 0.9972790486747959,
+    "phishing_recall": 0.9844807003581377,
+    "phishing_f1_score": 0.9908385481852315,
+    "target_mapping": {
+        "0": "legitimate",
+        "1": "phishing"
+    },
+    "evaluation_note": "Random stratified split; URL-level duplicates removed. This is a baseline, not a guarantee of real-world performance."
+}
