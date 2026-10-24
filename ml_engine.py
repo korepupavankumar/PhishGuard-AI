@@ -5,7 +5,7 @@ from pathlib import Path
 import joblib
 import pandas as pd
 
-from src.url_features import extract_url_features, FEATURE_NAMES
+from url_features import extract_url_features, FEATURE_NAMES
 
 
 MODEL_PATH = Path(
